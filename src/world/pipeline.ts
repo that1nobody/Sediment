@@ -1,6 +1,5 @@
 import { generateWorldGraph } from './generateWorldGraph'
 import type { WorldConfig, WorldGraph } from './types'
-import { generateWorldGraph, type WorldConfig, type WorldGraph } from './generateWorldGraph'
 import { applyElevation, type ElevationConfig } from './elevation'
 import { applyRivers, type RiverConfig } from './rivers'
 import { applyClimate, type ClimateConfig } from './climate'
