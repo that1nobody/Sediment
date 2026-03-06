@@ -4,6 +4,10 @@
 
 Coverage is now strong for implemented world-generation modules.
 
+- **Statements:** 99.08%
+- **Branches:** 90.52%
+- **Functions:** 100%
+- **Lines:** 99.63%
 - **Statements:** 96.04%
 - **Branches:** 86.31%
 - **Functions:** 96.96%
@@ -12,6 +16,7 @@ Coverage is now strong for implemented world-generation modules.
 Current suite status:
 
 - 10 passing test suites
+- 126 passing tests
 - 124 passing tests
 - 29 `todo` tests tracking future stages
 
@@ -52,6 +57,8 @@ Based on current coverage output:
 
 | File | Gap | Suggested test |
 |------|-----|----------------|
+| `src/world/climate.ts` | additional branch combinations around clamps/latitude-cooling toggles | add focused parameterized tests for high/low elevationCooling and pole/equator inputs |
+| `src/world/biomes.ts` | threshold branch combinations (already mostly covered) | add parameterized boundary tests for exact threshold equality behavior |
 | `src/world/climate.ts` | fallback moisture seeding branch (`queue.length === 0`) | run `applyClimate` without `applyRivers` and assert moisture still assigned |
 | `src/world/biomes.ts` | low-moisture desert branch and some default branch paths | construct deterministic fixture cells for edge-threshold classification |
 

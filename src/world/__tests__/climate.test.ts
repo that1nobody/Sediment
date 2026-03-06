@@ -2,6 +2,7 @@ import { generateWorldGraph } from '../generateWorldGraph'
 import { applyElevation } from '../elevation'
 import { applyRivers } from '../rivers'
 import { applyClimate } from '../climate'
+import type { WorldGraph } from '../types'
 
 describe('applyClimate', () => {
   test('assigns temperature and moisture in [0, 1] for every cell', () => {
