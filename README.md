@@ -25,6 +25,8 @@ The player interacts with the system through three roles:
 
 See `GDD.md` for the full design document.
 
+For narrative-generation data file structure and command examples, see `docs/narrative-prototype.md`.
+
 ## Development workflow
 
 Use feature branches instead of committing directly to `main`.
