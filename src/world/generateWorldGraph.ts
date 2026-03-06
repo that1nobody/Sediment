@@ -38,6 +38,9 @@ export interface WorldGraph {
   corners: Corner[]
   /** The seed actually used to generate this world (record for reproducibility). */
   seed: number
+  /** World dimensions — carried on the graph so pipeline stages can normalise coordinates. */
+  width: number
+  height: number
 }
 
 export interface WorldConfig {
@@ -69,7 +72,7 @@ export function generateWorldGraph(config: WorldConfig): WorldGraph {
   }))
 
   if (pts.length < 3) {
-    return { cells, edges: [], corners: [], seed }
+    return { cells, edges: [], corners: [], seed, width: config.width, height: config.height }
   }
 
   // --- Delaunay triangulation -----------------------------------------------
@@ -125,5 +128,5 @@ export function generateWorldGraph(config: WorldConfig): WorldGraph {
     cells[id].neighbors = Array.from(set)
   }
 
-  return { cells, edges, corners, seed }
+  return { cells, edges, corners, seed, width: config.width, height: config.height }
 }

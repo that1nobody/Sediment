@@ -21,18 +21,27 @@ describe('generateWorldGraph — output structure', () => {
 
   beforeAll(() => { graph = generateWorldGraph(makeConfig()) })
 
-  test('returns cells, edges, corners, and seed fields', () => {
+  test('returns cells, edges, corners, seed, width, and height fields', () => {
     expect(graph).toHaveProperty('cells')
     expect(graph).toHaveProperty('edges')
     expect(graph).toHaveProperty('corners')
     expect(graph).toHaveProperty('seed')
+    expect(graph).toHaveProperty('width')
+    expect(graph).toHaveProperty('height')
   })
 
-  test('all four fields have the correct types', () => {
+  test('all fields have the correct types', () => {
     expect(Array.isArray(graph.cells)).toBe(true)
     expect(Array.isArray(graph.edges)).toBe(true)
     expect(Array.isArray(graph.corners)).toBe(true)
     expect(typeof graph.seed).toBe('number')
+    expect(typeof graph.width).toBe('number')
+    expect(typeof graph.height).toBe('number')
+  })
+
+  test('width and height match the config values', () => {
+    expect(graph.width).toBe(1000)
+    expect(graph.height).toBe(800)
   })
 })
 
@@ -276,12 +285,7 @@ describe('generateWorldGraph — performance', () => {
 // Future pipeline stages — placeholder suites
 // ---------------------------------------------------------------------------
 
-describe('Elevation field [FUTURE]', () => {
-  test.todo('every cell elevation is in [0, 1] after terrain generation')
-  test.todo('elevation is spatially coherent: neighbouring cells differ by less than a max slope')
-  test.todo('elevation field is reproducible given the same seed')
-  test.todo('mountain and ocean cells are distinguishable by threshold values')
-})
+// Elevation field is implemented — see elevation.test.ts for full coverage.
 
 describe('River and drainage system [FUTURE]', () => {
   test.todo('rivers only flow downhill')
