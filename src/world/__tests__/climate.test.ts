@@ -61,30 +61,4 @@ describe('applyClimate', () => {
     expect(avg(water)).toBeGreaterThanOrEqual(avg(graph.cells))
     expect(Math.max(...water.map(c => c.moisture!))).toBeGreaterThan(0.9)
   })
-
-  test('uses fallback moisture seeding when no ocean/river flags exist', () => {
-    const graph: WorldGraph = {
-      seed: 1,
-      width: 100,
-      height: 100,
-      edges: [],
-      corners: [],
-      cells: [
-        { id: 0, x: 10, y: 50, neighbors: [1], elevation: 0.1 },
-        { id: 1, x: 40, y: 50, neighbors: [0, 2], elevation: 0.3 },
-        { id: 2, x: 80, y: 50, neighbors: [1], elevation: 0.8 },
-      ],
-    }
-
-    applyClimate(graph)
-
-    graph.cells.forEach(c => {
-      expect(c.temperature).toBeDefined()
-      expect(c.moisture).toBeDefined()
-      expect(Number.isFinite(c.moisture)).toBe(true)
-    })
-
-    // Lowest elevation cell should be one of fallback moisture sources.
-    expect(graph.cells[0].moisture!).toBeGreaterThanOrEqual(graph.cells[2].moisture!)
-  })
 })

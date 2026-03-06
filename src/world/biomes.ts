@@ -1,4 +1,5 @@
 import type { WorldGraph } from './types'
+import type { WorldGraph } from './generateWorldGraph'
 
 export type Biome =
   | 'tundra'
