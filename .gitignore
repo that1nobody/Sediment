@@ -1,0 +1,15 @@
+# Node / React stuff
+node_modules/
+.env
+dist/
+build/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.venv/
+*.ipynb_checkpoints/
+
+# Misc
+.DS_Store
+*.log
