@@ -1,0 +1,18 @@
+{
+  "world": {
+    "cell_count": 2000,
+    "seed": null
+  },
+
+  "history": {
+    "aeons": 50
+  },
+
+  "terrain": {
+    "elevation_noise_scale": 1.0
+  },
+
+  "anomalies": {
+    "initial_density": 0.01
+  }
+}
