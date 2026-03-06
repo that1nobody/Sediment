@@ -1,5 +1,5 @@
 import { fBm } from './noise'
-import type { WorldGraph } from './generateWorldGraph'
+import type { WorldGraph } from './types'
 
 // ---------------------------------------------------------------------------
 // Public types
