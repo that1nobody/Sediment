@@ -1,0 +1,42 @@
+{
+  "DEATH": {
+    "DEATH": 1.0, "BODY": 0.5, "SPIRIT": 0.5, "TIME": 0.4,
+    "AIR": 0.3, "EARTH": 0.2, "HUNGER": 0.3, "HIDDEN": 0.2
+  },
+  "DARKNESS": {
+    "HIDDEN": 0.7, "AIR": 0.8, "EARTH": 0.3, "DEATH": 0.4,
+    "SPIRIT": 0.3, "MIND": 0.3, "AETHER": 0.2, "WATER": 0.2
+  },
+  "WILD": {
+    "BEAST": 1.0, "GREEN": 0.8, "WATER": 0.4, "EARTH": 0.3,
+    "AIR": 0.3, "HUNGER": 0.3, "BODY": 0.2
+  },
+  "ANCIENT": {
+    "TIME": 0.6, "EARTH": 0.8, "CRAFT": 0.7, "POWER": 0.5,
+    "WORD": 0.4, "BOND": 0.3, "SACRED": 0.3
+  },
+  "MYTHIC": {
+    "WORD": 0.8, "POWER": 0.7, "SACRED": 0.6, "TIME": 0.5,
+    "BOND": 0.4, "SPIRIT": 0.3, "AIR": 0.2
+  },
+  "MYSTERY": {
+    "HIDDEN": 0.6, "AETHER": 0.8, "WORD": 0.5, "JOURNEY": 0.5,
+    "AIR": 0.2, "MIND": 0.4, "SPIRIT": 0.3
+  },
+  "MAGIC": {
+    "AETHER": 1.0, "HIDDEN": 0.5, "FIRE": 0.4, "GREEN": 0.3,
+    "WATER": 0.3, "WORD": 0.3, "SPIRIT": 0.2
+  },
+  "FIRE": {
+    "FIRE": 1.0, "HUNGER": 0.5, "CRAFT": 0.4, "WAR": 0.3,
+    "EARTH": 0.3, "BODY": 0.2, "DEATH": 0.2
+  },
+  "VIOLENT": {
+    "WAR": 1.0, "BODY": 0.6, "BEAST": 0.4, "FIRE": 0.3,
+    "HUNGER": 0.3, "EARTH": 0.2, "POWER": 0.2
+  },
+  "EVIL": {
+    "MIND": 0.7, "HUNGER": 0.6, "POWER": 0.5, "BOND": 0.5,
+    "HIDDEN": 0.4, "DEATH": 0.3, "SPIRIT": 0.3, "AETHER": 0.2
+  }
+}

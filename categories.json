@@ -1,0 +1,4825 @@
+{
+  "EARTH": {
+    "description": "the solid, the ground, the mineral, the enduring",
+    "nouns": [
+      {
+        "sing": "mountain",
+        "plur": "mountains",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "valley",
+        "plur": "valleys",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ridge",
+        "plur": "ridges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "stone",
+        "plur": "stones",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "iron",
+        "plur": "irons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "cairn",
+        "plur": "cairns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cliff",
+        "plur": "cliffs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "gorge",
+        "plur": "gorges",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "seam",
+        "plur": "seams",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "ore",
+        "plur": "ores",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "salt",
+        "plur": "salts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "col",
+        "plur": "cols",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "scree",
+        "plur": "screes",
+        "roles": [
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "crag",
+        "plur": "crags",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bedrock",
+        "plur": "bedrocks",
+        "roles": [
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "pass",
+        "plur": "passes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "slope",
+        "plur": "slopes",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dust",
+        "plur": "dusts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "pillar",
+        "plur": "pillars",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "monolith",
+        "plur": "monoliths",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "butte",
+        "plur": "buttes",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "spire",
+        "plur": "spires",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "terrace",
+        "plur": "terraces",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "escarpment",
+        "plur": "escarpments",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bluff",
+        "plur": "bluffs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "mesa",
+        "plur": "mesas",
+        "roles": [
+          "THE_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "rugged",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "barren",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "steep",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "deep",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "high",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "weathered",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "fractured",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "hollow",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "sunken",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "striated",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "stark",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "erode",
+        "past": "eroded",
+        "pp": "eroded",
+        "gerund": "eroding",
+        "voice": "weighted"
+      },
+      {
+        "base": "fracture",
+        "past": "fractured",
+        "pp": "fractured",
+        "gerund": "fracturing",
+        "voice": "weighted"
+      },
+      {
+        "base": "settle",
+        "past": "settled",
+        "pp": "settled",
+        "gerund": "settling",
+        "voice": "plain"
+      },
+      {
+        "base": "crumble",
+        "past": "crumbled",
+        "pp": "crumbled",
+        "gerund": "crumbling",
+        "voice": "weighted"
+      },
+      {
+        "base": "cleave",
+        "past": "cleft",
+        "pp": "cleft",
+        "gerund": "cleaving",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "WATER": {
+    "description": "the liquid, the flowing, the deep, the ice",
+    "nouns": [
+      {
+        "sing": "river",
+        "plur": "rivers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "sea",
+        "plur": "seas",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "well",
+        "plur": "wells",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "flood",
+        "plur": "floods",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "tide",
+        "plur": "tides",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ford",
+        "plur": "fords",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "marsh",
+        "plur": "marshes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "spring",
+        "plur": "springs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "basin",
+        "plur": "basins",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ice",
+        "plur": "ices",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "brine",
+        "plur": "brines",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "pool",
+        "plur": "pools",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "channel",
+        "plur": "channels",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "torrent",
+        "plur": "torrents",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "deep",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "still",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "frozen",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "brackish",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "silted",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "turbid",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "drowned",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "stagnant",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "flow",
+        "past": "flowed",
+        "pp": "flowed",
+        "gerund": "flowing",
+        "voice": "plain"
+      },
+      {
+        "base": "flood",
+        "past": "flooded",
+        "pp": "flooded",
+        "gerund": "flooding",
+        "voice": "plain"
+      },
+      {
+        "base": "drown",
+        "past": "drowned",
+        "pp": "drowned",
+        "gerund": "drowning",
+        "voice": "weighted"
+      },
+      {
+        "base": "recede",
+        "past": "receded",
+        "pp": "receded",
+        "gerund": "receding",
+        "voice": "weighted"
+      },
+      {
+        "base": "silt",
+        "past": "silted",
+        "pp": "silted",
+        "gerund": "silting",
+        "voice": "atmospheric"
+      }
+    ]
+  },
+  "AIR": {
+    "description": "breath, wind, sky, weather, void, scent, sound, silence",
+    "nouns": [
+      {
+        "sing": "wind",
+        "plur": "winds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "sky",
+        "plur": "skies",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "storm",
+        "plur": "storms",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "star",
+        "plur": "stars",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "silence",
+        "plur": "silences",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "breath",
+        "plur": "breaths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "void",
+        "plur": "voids",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dawn",
+        "plur": "dawns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dusk",
+        "plur": "dusks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "gale",
+        "plur": "gales",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "echo",
+        "plur": "echoes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "haze",
+        "plur": "hazes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "night",
+        "plur": "nights",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "stillness",
+        "plur": "stillnesses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "horizon",
+        "plur": "horizons",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "moon",
+        "plur": "moons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "gloom",
+        "plur": "glooms",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "murk",
+        "plur": "murks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "dark",
+        "plur": "darks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "blackness",
+        "plur": "blacknesses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "eclipse",
+        "plur": "eclipses",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shade",
+        "plur": "shades",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pall",
+        "plur": "palls",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "still",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "silent",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "cold",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "empty",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "vast",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "howling",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "windswept",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "stifling",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "keen",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "howl",
+        "past": "howled",
+        "pp": "howled",
+        "gerund": "howling",
+        "voice": "weighted"
+      },
+      {
+        "base": "whisper",
+        "past": "whispered",
+        "pp": "whispered",
+        "gerund": "whispering",
+        "voice": "weighted"
+      },
+      {
+        "base": "still",
+        "past": "stilled",
+        "pp": "stilled",
+        "gerund": "stilling",
+        "voice": "plain"
+      },
+      {
+        "base": "scatter",
+        "past": "scattered",
+        "pp": "scattered",
+        "gerund": "scattering",
+        "voice": "weighted"
+      },
+      {
+        "base": "hush",
+        "past": "hushed",
+        "pp": "hushed",
+        "gerund": "hushing",
+        "voice": "atmospheric"
+      }
+    ]
+  },
+  "FIRE": {
+    "description": "heat, light, consumption, transformation",
+    "nouns": [
+      {
+        "sing": "flame",
+        "plur": "flames",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ember",
+        "plur": "embers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ash",
+        "plur": "ashes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "forge",
+        "plur": "forges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pyre",
+        "plur": "pyres",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "beacon",
+        "plur": "beacons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "hearth",
+        "plur": "hearths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "spark",
+        "plur": "sparks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "coal",
+        "plur": "coals",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cinder",
+        "plur": "cinders",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "brand",
+        "plur": "brands",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "crucible",
+        "plur": "crucibles",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "burning",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "ashen",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "scorched",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "molten",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "smoldering",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "guttering",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "quenched",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "spent",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "burn",
+        "past": "burned",
+        "pp": "burned",
+        "gerund": "burning",
+        "voice": "plain"
+      },
+      {
+        "base": "consume",
+        "past": "consumed",
+        "pp": "consumed",
+        "gerund": "consuming",
+        "voice": "weighted"
+      },
+      {
+        "base": "kindle",
+        "past": "kindled",
+        "pp": "kindled",
+        "gerund": "kindling",
+        "voice": "weighted"
+      },
+      {
+        "base": "scorch",
+        "past": "scorched",
+        "pp": "scorched",
+        "gerund": "scorching",
+        "voice": "weighted"
+      },
+      {
+        "base": "quench",
+        "past": "quenched",
+        "pp": "quenched",
+        "gerund": "quenching",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "GREEN": {
+    "description": "the vegetal, growth, the rooted, harvest, rot",
+    "nouns": [
+      {
+        "sing": "root",
+        "plur": "roots",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vine",
+        "plur": "vines",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "seed",
+        "plur": "seeds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "thorn",
+        "plur": "thorns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bark",
+        "plur": "barks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "harvest",
+        "plur": "harvests",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "blight",
+        "plur": "blights",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "grove",
+        "plur": "groves",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "fen",
+        "plur": "fens",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bloom",
+        "plur": "blooms",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rot",
+        "plur": "rots",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "canopy",
+        "plur": "canopies",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bramble",
+        "plur": "brambles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "moss",
+        "plur": "mosses",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "overgrown",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "fertile",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "withered",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "tangled",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "blighted",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "rank",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "fallow",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "verdant",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "grow",
+        "past": "grew",
+        "pp": "grown",
+        "gerund": "growing",
+        "voice": "plain"
+      },
+      {
+        "base": "wither",
+        "past": "withered",
+        "pp": "withered",
+        "gerund": "withering",
+        "voice": "weighted"
+      },
+      {
+        "base": "blight",
+        "past": "blighted",
+        "pp": "blighted",
+        "gerund": "blighting",
+        "voice": "weighted"
+      },
+      {
+        "base": "choke",
+        "past": "choked",
+        "pp": "choked",
+        "gerund": "choking",
+        "voice": "weighted"
+      },
+      {
+        "base": "reclaim",
+        "past": "reclaimed",
+        "pp": "reclaimed",
+        "gerund": "reclaiming",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "BEAST": {
+    "description": "the animal, the living-not-human, predation",
+    "nouns": [
+      {
+        "sing": "fang",
+        "plur": "fangs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "claw",
+        "plur": "claws",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "den",
+        "plur": "dens",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pack",
+        "plur": "packs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "herd",
+        "plur": "herds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "maw",
+        "plur": "maws",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "horn",
+        "plur": "horns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "hide",
+        "plur": "hides",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "talon",
+        "plur": "talons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "burrow",
+        "plur": "burrows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "spoor",
+        "plur": "spoors",
+        "roles": [
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "nest",
+        "plur": "nests",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "feral",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "cunning",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "ravenous",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "patient",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "territorial",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "bristling",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "lean",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "hunt",
+        "past": "hunted",
+        "pp": "hunted",
+        "gerund": "hunting",
+        "voice": "plain"
+      },
+      {
+        "base": "stalk",
+        "past": "stalked",
+        "pp": "stalked",
+        "gerund": "stalking",
+        "voice": "weighted"
+      },
+      {
+        "base": "den",
+        "past": "denned",
+        "pp": "denned",
+        "gerund": "denning",
+        "voice": "plain"
+      },
+      {
+        "base": "gnaw",
+        "past": "gnawed",
+        "pp": "gnawed",
+        "gerund": "gnawing",
+        "voice": "weighted"
+      },
+      {
+        "base": "prowl",
+        "past": "prowled",
+        "pp": "prowled",
+        "gerund": "prowling",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "BODY": {
+    "description": "the physical form, anatomy, the mortal vessel",
+    "nouns": [
+      {
+        "sing": "bone",
+        "plur": "bones",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "blood",
+        "plur": "bloods",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "wound",
+        "plur": "wounds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "scar",
+        "plur": "scars",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "skull",
+        "plur": "skulls",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "marrow",
+        "plur": "marrows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "jaw",
+        "plur": "jaws",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "sinew",
+        "plur": "sinews",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vein",
+        "plur": "veins",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "throat",
+        "plur": "throats",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "spine",
+        "plur": "spines",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rib",
+        "plur": "ribs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "gaunt",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "scarred",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "broken",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "pale",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "withered",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "hollow",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "twisted",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "desiccated",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "break",
+        "past": "broke",
+        "pp": "broken",
+        "gerund": "breaking",
+        "voice": "plain"
+      },
+      {
+        "base": "bleed",
+        "past": "bled",
+        "pp": "bled",
+        "gerund": "bleeding",
+        "voice": "plain"
+      },
+      {
+        "base": "wither",
+        "past": "withered",
+        "pp": "withered",
+        "gerund": "withering",
+        "voice": "weighted"
+      },
+      {
+        "base": "scar",
+        "past": "scarred",
+        "pp": "scarred",
+        "gerund": "scarring",
+        "voice": "weighted"
+      },
+      {
+        "base": "contort",
+        "past": "contorted",
+        "pp": "contorted",
+        "gerund": "contorting",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "MIND": {
+    "description": "thought, reason, madness, dream, will, fear",
+    "nouns": [
+      {
+        "sing": "dream",
+        "plur": "dreams",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "madness",
+        "plur": "madnesses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "will",
+        "plur": "wills",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "fear",
+        "plur": "fears",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "doubt",
+        "plur": "doubts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vision",
+        "plur": "visions",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "reason",
+        "plur": "reasons",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dread",
+        "plur": "dreads",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "obsession",
+        "plur": "obsessions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "clarity",
+        "plur": "clarities",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "delusion",
+        "plur": "delusions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "conviction",
+        "plur": "convictions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "lucid",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "obsessed",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "broken",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "haunted",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unhinged",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "feverish",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "resolute",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "bewildered",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "forget",
+        "past": "forgot",
+        "pp": "forgotten",
+        "gerund": "forgetting",
+        "voice": "plain"
+      },
+      {
+        "base": "remember",
+        "past": "remembered",
+        "pp": "remembered",
+        "gerund": "remembering",
+        "voice": "plain"
+      },
+      {
+        "base": "dread",
+        "past": "dreaded",
+        "pp": "dreaded",
+        "gerund": "dreading",
+        "voice": "weighted"
+      },
+      {
+        "base": "unravel",
+        "past": "unraveled",
+        "pp": "unraveled",
+        "gerund": "unraveling",
+        "voice": "weighted"
+      },
+      {
+        "base": "fixate",
+        "past": "fixated",
+        "pp": "fixated",
+        "gerund": "fixating",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "SPIRIT": {
+    "description": "the animating, the soul, what persists, what haunts",
+    "nouns": [
+      {
+        "sing": "ghost",
+        "plur": "ghosts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shade",
+        "plur": "shades",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "haunt",
+        "plur": "haunts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "remnant",
+        "plur": "remnants",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "echo",
+        "plur": "echoes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "wraith",
+        "plur": "wraiths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "trace",
+        "plur": "traces",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "presence",
+        "plur": "presences",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "absence",
+        "plur": "absences",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "revenant",
+        "plur": "revenants",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "restless",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "lingering",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "fading",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "persistent",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "hollow",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unresolved",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "threadbare",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "relentless",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "haunt",
+        "past": "haunted",
+        "pp": "haunted",
+        "gerund": "haunting",
+        "voice": "weighted"
+      },
+      {
+        "base": "linger",
+        "past": "lingered",
+        "pp": "lingered",
+        "gerund": "lingering",
+        "voice": "weighted"
+      },
+      {
+        "base": "fade",
+        "past": "faded",
+        "pp": "faded",
+        "gerund": "fading",
+        "voice": "plain"
+      },
+      {
+        "base": "persist",
+        "past": "persisted",
+        "pp": "persisted",
+        "gerund": "persisting",
+        "voice": "weighted"
+      },
+      {
+        "base": "endure",
+        "past": "endured",
+        "pp": "endured",
+        "gerund": "enduring",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "DEATH": {
+    "description": "ending, remains, the afterward",
+    "nouns": [
+      {
+        "sing": "grave",
+        "plur": "graves",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "tomb",
+        "plur": "tombs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ruin",
+        "plur": "ruins",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dirge",
+        "plur": "dirges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cairn",
+        "plur": "cairns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pyre",
+        "plur": "pyres",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shroud",
+        "plur": "shrouds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "barrow",
+        "plur": "barrows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ossuary",
+        "plur": "ossuaries",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bier",
+        "plur": "biers",
+        "roles": [
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "wake",
+        "plur": "wakes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "plague",
+        "plur": "plagues",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "dead",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "fallen",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "ruined",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "silent",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "cold",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "forsaken",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "desolate",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unmourned",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "fall",
+        "past": "fell",
+        "pp": "fallen",
+        "gerund": "falling",
+        "voice": "plain"
+      },
+      {
+        "base": "bury",
+        "past": "buried",
+        "pp": "buried",
+        "gerund": "burying",
+        "voice": "plain"
+      },
+      {
+        "base": "ruin",
+        "past": "ruined",
+        "pp": "ruined",
+        "gerund": "ruining",
+        "voice": "plain"
+      },
+      {
+        "base": "perish",
+        "past": "perished",
+        "pp": "perished",
+        "gerund": "perishing",
+        "voice": "weighted"
+      },
+      {
+        "base": "succumb",
+        "past": "succumbed",
+        "pp": "succumbed",
+        "gerund": "succumbing",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "TIME": {
+    "description": "duration, age, the passing, cycles",
+    "nouns": [
+      {
+        "sing": "age",
+        "plur": "ages",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "era",
+        "plur": "eras",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "year",
+        "plur": "years",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "season",
+        "plur": "seasons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cycle",
+        "plur": "cycles",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "relic",
+        "plur": "relics",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "generation",
+        "plur": "generations",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "epoch",
+        "plur": "epochs",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "century",
+        "plur": "centuries",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "winter",
+        "plur": "winters",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "threshold",
+        "plur": "thresholds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "ancient",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "old",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "enduring",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "forgotten",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "eternal",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "bygone",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "immemorial",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "transient",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "endure",
+        "past": "endured",
+        "pp": "endured",
+        "gerund": "enduring",
+        "voice": "plain"
+      },
+      {
+        "base": "pass",
+        "past": "passed",
+        "pp": "passed",
+        "gerund": "passing",
+        "voice": "plain"
+      },
+      {
+        "base": "wane",
+        "past": "waned",
+        "pp": "waned",
+        "gerund": "waning",
+        "voice": "weighted"
+      },
+      {
+        "base": "outlast",
+        "past": "outlasted",
+        "pp": "outlasted",
+        "gerund": "outlasting",
+        "voice": "weighted"
+      },
+      {
+        "base": "erode",
+        "past": "eroded",
+        "pp": "eroded",
+        "gerund": "eroding",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "POWER": {
+    "description": "rule, authority, the hierarchical",
+    "nouns": [
+      {
+        "sing": "crown",
+        "plur": "crowns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "throne",
+        "plur": "thrones",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "law",
+        "plur": "laws",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "decree",
+        "plur": "decrees",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "seal",
+        "plur": "seals",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "banner",
+        "plur": "banners",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dominion",
+        "plur": "dominions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "court",
+        "plur": "courts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "edict",
+        "plur": "edicts",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "writ",
+        "plur": "writs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "mandate",
+        "plur": "mandates",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "heir",
+        "plur": "heirs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "citadel",
+        "plur": "citadels",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "palace",
+        "plur": "palaces",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "garrison",
+        "plur": "garrisons",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "census",
+        "plur": "censuses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "tithe",
+        "plur": "tithes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "sovereign",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "fallen",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "contested",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "absolute",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unchallenged",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "nominal",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "hereditary",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "rule",
+        "past": "ruled",
+        "pp": "ruled",
+        "gerund": "ruling",
+        "voice": "plain"
+      },
+      {
+        "base": "decree",
+        "past": "decreed",
+        "pp": "decreed",
+        "gerund": "decreeing",
+        "voice": "weighted"
+      },
+      {
+        "base": "depose",
+        "past": "deposed",
+        "pp": "deposed",
+        "gerund": "deposing",
+        "voice": "weighted"
+      },
+      {
+        "base": "claim",
+        "past": "claimed",
+        "pp": "claimed",
+        "gerund": "claiming",
+        "voice": "plain"
+      },
+      {
+        "base": "abdicate",
+        "past": "abdicated",
+        "pp": "abdicated",
+        "gerund": "abdicating",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "WAR": {
+    "description": "conflict, violence, the martial",
+    "nouns": [
+      {
+        "sing": "blade",
+        "plur": "blades",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "siege",
+        "plur": "sieges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shield",
+        "plur": "shields",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "host",
+        "plur": "hosts",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rampart",
+        "plur": "ramparts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "spear",
+        "plur": "spears",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rout",
+        "plur": "routs",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "breach",
+        "plur": "breaches",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "garrison",
+        "plur": "garrisons",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "column",
+        "plur": "columns",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "truce",
+        "plur": "truces",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "besieged",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "routed",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "bloodied",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "entrenched",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "desperate",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "scorched",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "hardened",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "besiege",
+        "past": "besieged",
+        "pp": "besieged",
+        "gerund": "besieging",
+        "voice": "weighted"
+      },
+      {
+        "base": "breach",
+        "past": "breached",
+        "pp": "breached",
+        "gerund": "breaching",
+        "voice": "weighted"
+      },
+      {
+        "base": "rout",
+        "past": "routed",
+        "pp": "routed",
+        "gerund": "routing",
+        "voice": "weighted"
+      },
+      {
+        "base": "sack",
+        "past": "sacked",
+        "pp": "sacked",
+        "gerund": "sacking",
+        "voice": "weighted"
+      },
+      {
+        "base": "hold",
+        "past": "held",
+        "pp": "held",
+        "gerund": "holding",
+        "voice": "plain"
+      }
+    ]
+  },
+  "BOND": {
+    "description": "connection, obligation, the social, kinship",
+    "nouns": [
+      {
+        "sing": "oath",
+        "plur": "oaths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "kin",
+        "plur": "kin",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "treaty",
+        "plur": "treaties",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "debt",
+        "plur": "debts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "name",
+        "plur": "names",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "lineage",
+        "plur": "lineages",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "exile",
+        "plur": "exiles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "clan",
+        "plur": "clans",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "compact",
+        "plur": "compacts",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "feud",
+        "plur": "feuds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ward",
+        "plur": "wards",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "elder",
+        "plur": "elders",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "sworn",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "broken",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "bound",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "estranged",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "abandoned",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "solemn",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "uneasy",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "swear",
+        "past": "swore",
+        "pp": "sworn",
+        "gerund": "swearing",
+        "voice": "plain"
+      },
+      {
+        "base": "betray",
+        "past": "betrayed",
+        "pp": "betrayed",
+        "gerund": "betraying",
+        "voice": "weighted"
+      },
+      {
+        "base": "exile",
+        "past": "exiled",
+        "pp": "exiled",
+        "gerund": "exiling",
+        "voice": "weighted"
+      },
+      {
+        "base": "honor",
+        "past": "honored",
+        "pp": "honored",
+        "gerund": "honoring",
+        "voice": "plain"
+      },
+      {
+        "base": "sever",
+        "past": "severed",
+        "pp": "severed",
+        "gerund": "severing",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "SACRED": {
+    "description": "the numinous, worship, the set-apart",
+    "nouns": [
+      {
+        "sing": "temple",
+        "plur": "temples",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shrine",
+        "plur": "shrines",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rite",
+        "plur": "rites",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "altar",
+        "plur": "altars",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "relic",
+        "plur": "relics",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vigil",
+        "plur": "vigils",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "martyr",
+        "plur": "martyrs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "schism",
+        "plur": "schisms",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "heresy",
+        "plur": "heresies",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cloister",
+        "plur": "cloisters",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "sanctum",
+        "plur": "sanctums",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "holy",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "profane",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "consecrated",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "forbidden",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "defiled",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "sacrosanct",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "apostate",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "consecrate",
+        "past": "consecrated",
+        "pp": "consecrated",
+        "gerund": "consecrating",
+        "voice": "weighted"
+      },
+      {
+        "base": "profane",
+        "past": "profaned",
+        "pp": "profaned",
+        "gerund": "profaning",
+        "voice": "weighted"
+      },
+      {
+        "base": "sacrifice",
+        "past": "sacrificed",
+        "pp": "sacrificed",
+        "gerund": "sacrificing",
+        "voice": "weighted"
+      },
+      {
+        "base": "defile",
+        "past": "defiled",
+        "pp": "defiled",
+        "gerund": "defiling",
+        "voice": "weighted"
+      },
+      {
+        "base": "venerate",
+        "past": "venerated",
+        "pp": "venerated",
+        "gerund": "venerating",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "HIDDEN": {
+    "description": "concealment, mystery, the unknown, depth",
+    "nouns": [
+      {
+        "sing": "veil",
+        "plur": "veils",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "shadow",
+        "plur": "shadows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "secret",
+        "plur": "secrets",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "threshold",
+        "plur": "thresholds",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "depth",
+        "plur": "depths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "crypt",
+        "plur": "crypts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "mask",
+        "plur": "masks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vault",
+        "plur": "vaults",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "hollow",
+        "plur": "hollows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "labyrinth",
+        "plur": "labyrinths",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "seal",
+        "plur": "seals",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "recess",
+        "plur": "recesses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "hidden",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "buried",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "sealed",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "dark",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "deep",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "veiled",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "sunken",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "fathomless",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "hide",
+        "past": "hid",
+        "pp": "hidden",
+        "gerund": "hiding",
+        "voice": "plain"
+      },
+      {
+        "base": "bury",
+        "past": "buried",
+        "pp": "buried",
+        "gerund": "burying",
+        "voice": "plain"
+      },
+      {
+        "base": "seal",
+        "past": "sealed",
+        "pp": "sealed",
+        "gerund": "sealing",
+        "voice": "plain"
+      },
+      {
+        "base": "conceal",
+        "past": "concealed",
+        "pp": "concealed",
+        "gerund": "concealing",
+        "voice": "weighted"
+      },
+      {
+        "base": "efface",
+        "past": "effaced",
+        "pp": "effaced",
+        "gerund": "effacing",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "CRAFT": {
+    "description": "making, building, the deliberate",
+    "nouns": [
+      {
+        "sing": "wall",
+        "plur": "walls",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "bridge",
+        "plur": "bridges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "road",
+        "plur": "roads",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "tower",
+        "plur": "towers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "gate",
+        "plur": "gates",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "inscription",
+        "plur": "inscriptions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "foundation",
+        "plur": "foundations",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "arch",
+        "plur": "arches",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cistern",
+        "plur": "cisterns",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "mill",
+        "plur": "mills",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "keystone",
+        "plur": "keystones",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "keep",
+        "plur": "keeps",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "vault",
+        "plur": "vaults",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "buttress",
+        "plur": "buttresses",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "gatehouse",
+        "plur": "gatehouses",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "aqueduct",
+        "plur": "aqueducts",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "causeway",
+        "plur": "causeways",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "granary",
+        "plur": "granaries",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "watch",
+        "plur": "watches",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "hold",
+        "plur": "holds",
+        "roles": [
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "rampart",
+        "plur": "ramparts",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "beacon",
+        "plur": "beacons",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "built",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "ruined",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "fortified",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "hewn",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unfinished",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "monumental",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "crumbling",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "build",
+        "past": "built",
+        "pp": "built",
+        "gerund": "building",
+        "voice": "plain"
+      },
+      {
+        "base": "carve",
+        "past": "carved",
+        "pp": "carved",
+        "gerund": "carving",
+        "voice": "plain"
+      },
+      {
+        "base": "inscribe",
+        "past": "inscribed",
+        "pp": "inscribed",
+        "gerund": "inscribing",
+        "voice": "weighted"
+      },
+      {
+        "base": "quarry",
+        "past": "quarried",
+        "pp": "quarried",
+        "gerund": "quarrying",
+        "voice": "weighted"
+      },
+      {
+        "base": "dismantle",
+        "past": "dismantled",
+        "pp": "dismantled",
+        "gerund": "dismantling",
+        "voice": "weighted"
+      }
+    ]
+  },
+  "JOURNEY": {
+    "description": "movement, passage, the crossing",
+    "nouns": [
+      {
+        "sing": "road",
+        "plur": "roads",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ford",
+        "plur": "fords",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "path",
+        "plur": "paths",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "exile",
+        "plur": "exiles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "crossing",
+        "plur": "crossings",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "stranger",
+        "plur": "strangers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "frontier",
+        "plur": "frontiers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "passage",
+        "plur": "passages",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pilgrim",
+        "plur": "pilgrims",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "march",
+        "plur": "marches",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "return",
+        "plur": "returns",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "riddle",
+        "plur": "riddles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "cipher",
+        "plur": "ciphers",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "way",
+        "plur": "ways",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "gate",
+        "plur": "gates",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "border",
+        "plur": "borders",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "distant",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "lost",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "wandering",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "weary",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "exiled",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "homeward",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "uncharted",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "cross",
+        "past": "crossed",
+        "pp": "crossed",
+        "gerund": "crossing",
+        "voice": "plain"
+      },
+      {
+        "base": "wander",
+        "past": "wandered",
+        "pp": "wandered",
+        "gerund": "wandering",
+        "voice": "weighted"
+      },
+      {
+        "base": "flee",
+        "past": "fled",
+        "pp": "fled",
+        "gerund": "fleeing",
+        "voice": "plain"
+      },
+      {
+        "base": "return",
+        "past": "returned",
+        "pp": "returned",
+        "gerund": "returning",
+        "voice": "plain"
+      },
+      {
+        "base": "traverse",
+        "past": "traversed",
+        "pp": "traversed",
+        "gerund": "traversing",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "HUNGER": {
+    "description": "want, need, the driving lack",
+    "nouns": [
+      {
+        "sing": "famine",
+        "plur": "famines",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "debt",
+        "plur": "debts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "drought",
+        "plur": "droughts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "hollow",
+        "plur": "hollows",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "want",
+        "plur": "wants",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "lack",
+        "plur": "lacks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "dearth",
+        "plur": "dearths",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "appetite",
+        "plur": "appetites",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "thirst",
+        "plur": "thirsts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "ration",
+        "plur": "rations",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "pittance",
+        "plur": "pittances",
+        "roles": [
+          "THE_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "starving",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "hollow",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "desperate",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "ravenous",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "depleted",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "insatiable",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "bereft",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "lean",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "starve",
+        "past": "starved",
+        "pp": "starved",
+        "gerund": "starving",
+        "voice": "plain"
+      },
+      {
+        "base": "consume",
+        "past": "consumed",
+        "pp": "consumed",
+        "gerund": "consuming",
+        "voice": "weighted"
+      },
+      {
+        "base": "hoard",
+        "past": "hoarded",
+        "pp": "hoarded",
+        "gerund": "hoarding",
+        "voice": "weighted"
+      },
+      {
+        "base": "deplete",
+        "past": "depleted",
+        "pp": "depleted",
+        "gerund": "depleting",
+        "voice": "weighted"
+      },
+      {
+        "base": "devour",
+        "past": "devoured",
+        "pp": "devoured",
+        "gerund": "devouring",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "WORD": {
+    "description": "language, record, sign, omen, pattern, the named",
+    "nouns": [
+      {
+        "sing": "chronicle",
+        "plur": "chronicles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "name",
+        "plur": "names",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "inscription",
+        "plur": "inscriptions",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "title",
+        "plur": "titles",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rumor",
+        "plur": "rumors",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "omen",
+        "plur": "omens",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "sign",
+        "plur": "signs",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "record",
+        "plur": "records",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "legend",
+        "plur": "legends",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "fragment",
+        "plur": "fragments",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "epithet",
+        "plur": "epithets",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "prophecy",
+        "plur": "prophecies",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "fate",
+        "plur": "fates",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "mark",
+        "plur": "marks",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "written",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "spoken",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "lost",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "false",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "prophetic",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "ominous",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "apocryphal",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "portentous",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "fated",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "atmospheric"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "name",
+        "past": "named",
+        "pp": "named",
+        "gerund": "naming",
+        "voice": "plain"
+      },
+      {
+        "base": "record",
+        "past": "recorded",
+        "pp": "recorded",
+        "gerund": "recording",
+        "voice": "plain"
+      },
+      {
+        "base": "forget",
+        "past": "forgot",
+        "pp": "forgotten",
+        "gerund": "forgetting",
+        "voice": "plain"
+      },
+      {
+        "base": "prophesy",
+        "past": "prophesied",
+        "pp": "prophesied",
+        "gerund": "prophesying",
+        "voice": "weighted"
+      },
+      {
+        "base": "efface",
+        "past": "effaced",
+        "pp": "effaced",
+        "gerund": "effacing",
+        "voice": "chronicle"
+      },
+      {
+        "base": "portend",
+        "past": "portended",
+        "pp": "portended",
+        "gerund": "portending",
+        "voice": "chronicle"
+      }
+    ]
+  },
+  "AETHER": {
+    "description": "the immaterial, force, the uncanny",
+    "nouns": [
+      {
+        "sing": "pulse",
+        "plur": "pulses",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "resonance",
+        "plur": "resonances",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "warp",
+        "plur": "warps",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "aura",
+        "plur": "auras",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "flux",
+        "plur": "fluxes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN"
+        ]
+      },
+      {
+        "sing": "breach",
+        "plur": "breaches",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "rift",
+        "plur": "rifts",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "seam",
+        "plur": "seams",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "node",
+        "plur": "nodes",
+        "roles": [
+          "FRONT_COMPOUND",
+          "REAR_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "surge",
+        "plur": "surges",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "void",
+        "plur": "voids",
+        "roles": [
+          "FRONT_COMPOUND",
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      },
+      {
+        "sing": "emanation",
+        "plur": "emanations",
+        "roles": [
+          "THE_NOUN",
+          "OF_NOUN"
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "word": "strange",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "warped",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "charged",
+        "roles": [
+          "FRONT_ADJ",
+          "REAR_ADJ"
+        ],
+        "voice": "functional"
+      },
+      {
+        "word": "pulsing",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "dormant",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "unstable",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "atmospheric"
+      },
+      {
+        "word": "liminal",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      },
+      {
+        "word": "uncanny",
+        "roles": [
+          "FRONT_ADJ"
+        ],
+        "voice": "chronicle"
+      }
+    ],
+    "verbs": [
+      {
+        "base": "pulse",
+        "past": "pulsed",
+        "pp": "pulsed",
+        "gerund": "pulsing",
+        "voice": "weighted"
+      },
+      {
+        "base": "resonate",
+        "past": "resonated",
+        "pp": "resonated",
+        "gerund": "resonating",
+        "voice": "weighted"
+      },
+      {
+        "base": "warp",
+        "past": "warped",
+        "pp": "warped",
+        "gerund": "warping",
+        "voice": "weighted"
+      },
+      {
+        "base": "emanate",
+        "past": "emanated",
+        "pp": "emanated",
+        "gerund": "emanating",
+        "voice": "chronicle"
+      },
+      {
+        "base": "breach",
+        "past": "breached",
+        "pp": "breached",
+        "gerund": "breaching",
+        "voice": "weighted"
+      }
+    ]
+  }
+}

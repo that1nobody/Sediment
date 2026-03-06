@@ -1,0 +1,26 @@
+{
+  "site_name": [
+    {"pattern": "the {FRONT_ADJ} {THE_NOUN}", "weight": 1.0},
+    {"pattern": "the {THE_NOUN} of {OF_NOUN:plur}", "weight": 0.8},
+    {"pattern": "{FRONT_COMPOUND}{REAR_COMPOUND}", "weight": 0.7},
+    {"pattern": "the {FRONT_ADJ} {REAR_COMPOUND}", "weight": 0.5},
+    {"pattern": "the {THE_NOUN}", "weight": 0.4}
+  ],
+  "era_title": [
+    {"pattern": "THE {FRONT_ADJ} {THE_NOUN:upper}", "weight": 1.0},
+    {"pattern": "THE AGE OF {OF_NOUN:plur:upper}", "weight": 0.8},
+    {"pattern": "THE {THE_NOUN:upper} OF {OF_NOUN:plur:upper}", "weight": 0.7},
+    {"pattern": "THE {FRONT_ADJ:upper} {THE_NOUN:upper}", "weight": 0.6}
+  ],
+  "civ_name": [
+    {"pattern": "{FRONT_COMPOUND}{REAR_COMPOUND}", "weight": 1.0},
+    {"pattern": "the {OF_NOUN:plur} of the {THE_NOUN}", "weight": 0.7},
+    {"pattern": "the {FRONT_ADJ} {OF_NOUN:plur}", "weight": 0.6}
+  ],
+  "creature_epithet": [
+    {"pattern": "the {FRONT_ADJ} {THE_NOUN}", "weight": 1.0},
+    {"pattern": "the {THE_NOUN} of {THE_NOUN}", "weight": 0.8},
+    {"pattern": "what {VERB_PAST} at {SITE}", "weight": 0.6},
+    {"pattern": "the {FRONT_ADJ} {THE_NOUN}", "weight": 0.5}
+  ]
+}
