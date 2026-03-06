@@ -24,3 +24,17 @@ The player interacts with the system through three roles:
 -   Direct
 
 See `GDD.md` for the full design document.
+
+## Development workflow
+
+Use feature branches instead of committing directly to `main`.
+
+Example:
+
+```bash
+git checkout main
+git pull
+git checkout -b feat/your-change
+```
+
+See `CONTRIBUTING.md` for the full workflow.
