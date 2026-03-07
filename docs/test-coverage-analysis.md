@@ -2,23 +2,18 @@
 
 ## Executive Summary
 
-Coverage is now strong for implemented world-generation modules.
+Coverage is strong across all implemented world-generation modules.
 
-- **Statements:** 99.08%
-- **Branches:** 90.52%
-- **Functions:** 100%
-- **Lines:** 99.63%
-- **Statements:** 96.04%
-- **Branches:** 86.31%
-- **Functions:** 96.96%
-- **Lines:** 96.75%
+- **Statements:** 97.45%
+- **Branches:** 84.93%
+- **Functions:** 97.67%
+- **Lines:** 98.34%
 
 Current suite status:
 
-- 10 passing test suites
-- 126 passing tests
-- 124 passing tests
-- 29 `todo` tests tracking future stages
+- 13 passing test suites
+- 148 passing tests
+- 29 `todo` tests tracking future stages (anomalies, registers, chronicle)
 
 This document reflects the **current** repository state and outlines the next
 highest-value testing tasks.
@@ -37,6 +32,9 @@ Implemented and covered modules:
 - `rivers.ts`
 - `climate.ts`
 - `biomes.ts`
+- `civilizations.ts`
+- `instability.ts`
+- `events.ts`
 - `pipeline.ts`
 
 Key behavior already exercised:
@@ -99,9 +97,9 @@ Optional policy:
 | Rivers / drainage | ✅ | ✅ |
 | Climate (temperature/moisture) | ✅ | ✅ (with minor branch gaps) |
 | Biomes | ✅ | ✅ (with minor branch gaps) |
-| Civilizations | ❌ | ❌ |
-| Instability | ❌ | ❌ |
-| Events | ❌ | ❌ |
+| Civilizations | ✅ | ✅ |
+| Instability | ✅ | ✅ |
+| Events | ✅ | ✅ |
 | Anomalies | ❌ | ❌ |
 | Registers | ❌ | ❌ |
 | Chronicle | ❌ | ❌ |

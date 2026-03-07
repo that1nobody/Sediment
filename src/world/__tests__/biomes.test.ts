@@ -62,6 +62,7 @@ describe('applyBiomes', () => {
       cells,
       edges: [],
       corners: [],
+      events: [],
     }
 
     applyBiomes(graph)
