@@ -5,7 +5,10 @@
   },
 
   "history": {
-    "aeons": 50
+    "aeons": 50,
+    "instability_threshold": 0.60,
+    "instability_decay": 0.30,
+    "instability_accumulation_rate": 0.025
   },
 
   "terrain": {
@@ -14,5 +17,14 @@
 
   "anomalies": {
     "initial_density": 0.01
+  },
+
+  "organizations": {
+    "max_organizations": 12,
+    "org_spread": 3
+  },
+
+  "chronicle": {
+    "min_load": 0.45
   }
 }

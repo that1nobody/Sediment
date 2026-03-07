@@ -21,6 +21,15 @@ export interface EventConfig {
    * event (representing relief or reset).  Default 0.50.
    */
   instabilityDecay?: number
+  /**
+   * Amount of instability re-added to each settled cell at the start of every
+   * aeon, simulating ongoing environmental and social pressure.  Without this,
+   * cells never recover toward the threshold after firing.  Default 0.
+   *
+   * Recommended value: 0.04 – 0.08.  Higher values produce more frequent
+   * recurring events; 0 disables re-accumulation entirely.
+   */
+  accumulationRate?: number
 }
 
 // ---------------------------------------------------------------------------
@@ -30,46 +39,62 @@ export interface EventConfig {
 /**
  * Selects the most appropriate event type for a cell given its current state
  * and the state of its neighbourhood.
+ *
+ * Priority order: famine/plague (environmental crises) → collapse (extreme) →
+ * war (probabilistic for frontier cells — chance scales with instability so
+ * low-pressure border friction becomes cultural exchange) → cultural_transformation.
+ *
+ * War probability: P(war) = instability × 0.70, capped at 0.85.
+ * At threshold 0.60 this gives ~42 % war; at instability 0.90 it gives ~63 %.
+ * The RNG is consumed once per frontier cell regardless of the outcome.
  */
-function selectEventType(cellId: number, graph: WorldGraph): EventType {
+function selectEventType(cellId: number, graph: WorldGraph, rng: RNG): EventType {
   const cell = graph.cells[cellId]
+  const instability = cell.instability ?? 0
 
-  // War requires an adjacent cell of a different civilization.
+  // Environmental crises take priority over political conflict.
+  if ((cell.moisture ?? 0.5) < 0.25) return 'famine'
+  if ((cell.population ?? 0) > 0.85) return 'plague'
+
+  // Collapse under extreme isolated pressure.
+  if (instability > 0.90) return 'collapse'
+
+  // War on frontier cells — probability scales with instability so that
+  // moderate-pressure borders produce cultural exchange while high-pressure
+  // ones escalate to open conflict.
   const hasEnemy = cell.neighbors.some(nid => {
     const nciv = graph.cells[nid].civilization
     return nciv !== undefined && nciv !== cell.civilization
   })
-  if (hasEnemy) return 'war'
+  if (hasEnemy && rng() < Math.min(instability * 0.70, 0.85)) return 'war'
 
-  // Famine when moisture is very low.
-  if ((cell.moisture ?? 0.5) < 0.25) return 'famine'
-
-  // Plague when population is high.
-  if ((cell.population ?? 0) > 0.70) return 'plague'
-
-  // Collapse for high-instability isolated cells.
-  if ((cell.instability ?? 0) > 0.90) return 'collapse'
-
-  // Default: cultural transformation.
+  // Default: cultural transformation (including peaceful border exchange).
   return 'cultural_transformation'
 }
 
 /**
  * Computes a symbolic load value ∈ [0, 1] for an event.
- * Higher instability and more extreme event types produce higher loads.
+ *
+ * Load scales from a minimum floor at the instability threshold up toward 1
+ * as instability approaches maximum.  This ensures medium-load events at the
+ * threshold and mythic-load events at high instability.
+ *
+ * Formula: load = base × (0.40 + instability × 0.60) + jitter
+ *   At instability = 0.60 (threshold): war ≈ 0.61–0.69 (near-mythic)
+ *   At instability = 0.80:             war ≈ 0.74–0.82 (solidly mythic)
+ *   At instability = 0.60:             cultural_transformation ≈ 0.38–0.46
  */
 function computeLoad(type: EventType, instability: number, rng: RNG): number {
   const baseByType: Record<EventType, number> = {
-    war: 0.70,
-    collapse: 0.80,
-    plague: 0.55,
-    famine: 0.45,
-    disaster: 0.60,
-    cultural_transformation: 0.35,
+    war:                     0.80,
+    collapse:                0.90,
+    plague:                  0.65,
+    famine:                  0.60,
+    disaster:                0.65,
+    cultural_transformation: 0.50,
   }
   const base = baseByType[type]
-  // Scale by instability and add small jitter for variability.
-  return Math.min(base * instability + rng() * 0.10, 1)
+  return Math.min(base * (0.40 + instability * 0.60) + rng() * 0.08, 1)
 }
 
 // ---------------------------------------------------------------------------
@@ -92,17 +117,29 @@ export function applyEvents(graph: WorldGraph, rng: RNG, config: EventConfig = {
     aeons = 10,
     instabilityThreshold = 0.60,
     instabilityDecay = 0.50,
+    accumulationRate = 0,
   } = config
 
   const cells = graph.cells
   if (cells.length === 0) return
 
   for (let aeon = 0; aeon < aeons; aeon++) {
+    // Re-accumulate instability at the start of each aeon.
+    // This simulates ongoing environmental and social pressure so that cells
+    // can eventually fire again after a partial instability reset.
+    if (accumulationRate > 0) {
+      for (const cell of cells) {
+        if (cell.civilization !== undefined) {
+          cell.instability = Math.min((cell.instability ?? 0) + accumulationRate, 1)
+        }
+      }
+    }
+
     for (const cell of cells) {
       if (cell.civilization === undefined) continue
       if ((cell.instability ?? 0) < instabilityThreshold) continue
 
-      const type = selectEventType(cell.id, graph)
+      const type = selectEventType(cell.id, graph, rng)
       const load = computeLoad(type, cell.instability!, rng)
 
       const record: EventRecord = { aeon, cellId: cell.id, type, load }
