@@ -63,6 +63,9 @@ describe('applyBiomes', () => {
       edges: [],
       corners: [],
       events: [],
+      organizations: [],
+      anomalies: [],
+      chronicle: [],
     }
 
     applyBiomes(graph)

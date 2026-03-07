@@ -28,6 +28,15 @@ export interface Cell {
 
   // Instability (set by applyInstability)
   instability?: number   // accumulated pressure ∈ [0, 1]; crossing a threshold triggers events
+
+  // Organizations (set by applyOrganizations)
+  organizations?: number[]  // ids of organizations operating in this cell (may overlap with civ)
+
+  // Anomalies (set by applyAnomalies)
+  anomalyInfluence?: number  // cumulative anomaly signal ∈ [0, 1]
+
+  // Registers (set by applyRegisters)
+  registers?: string[]  // symbolic register names active at this cell
 }
 
 export interface Edge {
@@ -43,6 +52,63 @@ export interface Corner {
   x: number
   y: number
 }
+
+// ---------------------------------------------------------------------------
+// Organizations
+// ---------------------------------------------------------------------------
+
+export type OrgType = 'cult' | 'religion' | 'mercenary' | 'sect'
+
+export interface Organization {
+  id: number
+  type: OrgType
+  /** Cell ids where this organization currently operates. May overlap with civilization cells. */
+  cells: number[]
+  /** Fast-drift instability ∈ [0, 1] — organizations are inherently volatile. */
+  instability: number
+  /** Primary register this organization amplifies in its operating cells. */
+  register: string
+}
+
+// ---------------------------------------------------------------------------
+// Anomalies
+// ---------------------------------------------------------------------------
+
+export type AnomalyOrigin = 'primordial' | 'emergent'
+
+export interface Anomaly {
+  id: number
+  cellId: number
+  origin: AnomalyOrigin
+  /** Graph-distance BFS radius of influence. */
+  radius: number
+  /** Base signal strength ∈ [0, 1]. */
+  signal: number
+}
+
+// ---------------------------------------------------------------------------
+// Chronicle
+// ---------------------------------------------------------------------------
+
+export interface ChronicleFragment {
+  /** Aeon of the triggering event. */
+  aeon: number
+  /** Index into `WorldGraph.events`. */
+  eventIndex: number
+  cellId: number
+  eventType: EventType
+  /** Symbolic load ∈ [0, 1]. Low (<0.33) → ignored, medium → recorded, high (>0.66) → mythic. */
+  load: number
+  /** Active registers at the cell when the event fired. */
+  registers: string[]
+  /** Organization involved (if any operates in this cell). */
+  organizationId?: number
+  organizationType?: OrgType
+}
+
+// ---------------------------------------------------------------------------
+// Events
+// ---------------------------------------------------------------------------
 
 export type EventType =
   | 'famine'
@@ -76,6 +142,12 @@ export interface WorldGraph {
   height: number
   /** Ordered event ledger produced by applyEvents. */
   events: EventRecord[]
+  /** Organizations seeded by applyOrganizations. */
+  organizations: Organization[]
+  /** Anomalies seeded by applyAnomalies. */
+  anomalies: Anomaly[]
+  /** Chronicle fragments assembled by assembleChronicle. */
+  chronicle: ChronicleFragment[]
 }
 
 export interface WorldConfig {

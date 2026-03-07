@@ -30,7 +30,7 @@ export function generateWorldGraph(config: WorldConfig): WorldGraph {
   }))
 
   if (pts.length < 3) {
-    return { cells, edges: [], corners: [], seed, width: config.width, height: config.height, events: [] }
+    return { cells, edges: [], corners: [], seed, width: config.width, height: config.height, events: [], organizations: [], anomalies: [], chronicle: [] }
   }
 
   // --- Delaunay triangulation -----------------------------------------------
@@ -86,5 +86,5 @@ export function generateWorldGraph(config: WorldConfig): WorldGraph {
     cells[id].neighbors = Array.from(set)
   }
 
-  return { cells, edges, corners, seed, width: config.width, height: config.height, events: [] }
+  return { cells, edges, corners, seed, width: config.width, height: config.height, events: [], organizations: [], anomalies: [], chronicle: [] }
 }

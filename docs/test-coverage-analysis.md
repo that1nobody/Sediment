@@ -4,16 +4,16 @@
 
 Coverage is strong across all implemented world-generation modules.
 
-- **Statements:** 97.45%
-- **Branches:** 84.93%
-- **Functions:** 97.67%
-- **Lines:** 98.34%
+- **Statements:** 97.81%
+- **Branches:** 87.23%
+- **Functions:** 98.14%
+- **Lines:** 98.41%
 
 Current suite status:
 
-- 13 passing test suites
-- 148 passing tests
-- 29 `todo` tests tracking future stages (anomalies, registers, chronicle)
+- 17 passing test suites
+- 182 passing tests
+- 29 `todo` tests (placeholders for future integration/narrative work)
 
 This document reflects the **current** repository state and outlines the next
 highest-value testing tasks.
@@ -35,6 +35,10 @@ Implemented and covered modules:
 - `civilizations.ts`
 - `instability.ts`
 - `events.ts`
+- `organizations.ts`
+- `anomalies.ts`
+- `registers.ts`
+- `chronicle.ts`
 - `pipeline.ts`
 
 Key behavior already exercised:
@@ -100,9 +104,10 @@ Optional policy:
 | Civilizations | ✅ | ✅ |
 | Instability | ✅ | ✅ |
 | Events | ✅ | ✅ |
-| Anomalies | ❌ | ❌ |
-| Registers | ❌ | ❌ |
-| Chronicle | ❌ | ❌ |
+| Organizations | ✅ | ✅ |
+| Anomalies | ✅ | ✅ |
+| Registers | ✅ | ✅ |
+| Chronicle | ✅ | ✅ |
 
 ---
 

@@ -78,7 +78,7 @@ describe('applyInstability', () => {
         civilization: 0, population: 0.5,
       },
     ]
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     applyInstability(graph, { famineThreshold: 0.30 })
     expect(graph.cells[0].instability).toBeGreaterThan(0)
   })
@@ -95,7 +95,7 @@ describe('applyInstability', () => {
   })
 
   test('empty graph does not throw', () => {
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     expect(() => applyInstability(graph)).not.toThrow()
   })
 })

@@ -127,14 +127,14 @@ describe('applyCivilizations', () => {
       { id: 0, x: 0, y: 0, neighbors: [1], ocean: true, elevation: 0.1, moisture: 0.8, temperature: 0.5, biome: 'coast' },
       { id: 1, x: 1, y: 0, neighbors: [0], elevation: 0.9, moisture: 0.4, temperature: 0.4, biome: 'mountain' },
     ]
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     expect(() => applyCivilizations(graph, rng)).not.toThrow()
     graph.cells.forEach(c => expect(c.civilization).toBeUndefined())
   })
 
   test('empty graph does not throw', () => {
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     expect(() => applyCivilizations(graph, rng)).not.toThrow()
   })

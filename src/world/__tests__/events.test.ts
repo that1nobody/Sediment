@@ -66,7 +66,7 @@ describe('applyEvents', () => {
         civilization: 0, population: 0.9, instability: 0.80,
       },
     ]
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     const popBefore = cells[0].population!
     applyEvents(graph, rng, { aeons: 1, instabilityThreshold: 0.70, instabilityDecay: 0.50 })
@@ -86,7 +86,7 @@ describe('applyEvents', () => {
         civilization: 0, population: 0.5, instability: 0.75,
       },
     ]
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     applyEvents(graph, rng, { aeons: 1, instabilityThreshold: 0.60, instabilityDecay: 0.50 })
 
@@ -151,7 +151,7 @@ describe('applyEvents', () => {
         civilization: 0, population: 0.10, instability: 0.95,
       },
     ]
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells, edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     applyEvents(graph, rng, { aeons: 1, instabilityThreshold: 0.80, instabilityDecay: 0.50 })
 
@@ -163,7 +163,7 @@ describe('applyEvents', () => {
   })
 
   test('empty graph does not throw', () => {
-    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [] }
+    const graph: WorldGraph = { seed: 1, width: 10, height: 10, cells: [], edges: [], corners: [], events: [], organizations: [], anomalies: [], chronicle: [] }
     const rng = mulberry32(1)
     expect(() => applyEvents(graph, rng)).not.toThrow()
   })
