@@ -3,6 +3,10 @@ import { applyElevation, type ElevationConfig } from './elevation'
 import { applyRivers, type RiverConfig } from './rivers'
 import { applyClimate, type ClimateConfig } from './climate'
 import { applyBiomes, type BiomeConfig } from './biomes'
+import { applyCivilizations, type CivilizationConfig } from './civilizations'
+import { applyInstability, type InstabilityConfig } from './instability'
+import { applyEvents, type EventConfig } from './events'
+import { mulberry32 } from './rng'
 
 export interface WorldPipelineConfig {
   world: WorldConfig
@@ -10,6 +14,9 @@ export interface WorldPipelineConfig {
   rivers?: RiverConfig
   climate?: ClimateConfig
   biomes?: BiomeConfig
+  civilizations?: CivilizationConfig
+  instability?: InstabilityConfig
+  events?: EventConfig
 }
 
 /**
@@ -21,5 +28,9 @@ export function generateWorld(config: WorldPipelineConfig): WorldGraph {
   applyRivers(graph, config.rivers)
   applyClimate(graph, config.climate)
   applyBiomes(graph, config.biomes)
+  const rng = mulberry32(graph.seed ^ 0xdeadbeef)
+  applyCivilizations(graph, rng, config.civilizations)
+  applyInstability(graph, config.instability)
+  applyEvents(graph, rng, config.events)
   return graph
 }

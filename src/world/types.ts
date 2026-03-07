@@ -21,6 +21,13 @@ export interface Cell {
 
   // Classification (set by applyBiomes)
   biome?: string
+
+  // Civilizations (set by applyCivilizations)
+  civilization?: number  // id of the owning civilization; undefined = unclaimed
+  population?: number    // relative population level ∈ [0, 1]
+
+  // Instability (set by applyInstability)
+  instability?: number   // accumulated pressure ∈ [0, 1]; crossing a threshold triggers events
 }
 
 export interface Edge {
@@ -37,6 +44,27 @@ export interface Corner {
   y: number
 }
 
+export type EventType =
+  | 'famine'
+  | 'war'
+  | 'plague'
+  | 'disaster'
+  | 'cultural_transformation'
+  | 'collapse'
+
+export interface EventRecord {
+  /** Aeon (time step) in which the event occurred. */
+  aeon: number
+  /** Primary cell where the event originated. */
+  cellId: number
+  type: EventType
+  /**
+   * Symbolic weight ∈ [0, 1].  Low (<0.33) → ignored, medium → recorded,
+   * high (>0.66) → mythic.
+   */
+  load: number
+}
+
 export interface WorldGraph {
   cells: Cell[]
   edges: Edge[]
@@ -46,6 +74,8 @@ export interface WorldGraph {
   /** World dimensions — carried on the graph so pipeline stages can normalise coordinates. */
   width: number
   height: number
+  /** Ordered event ledger produced by applyEvents. */
+  events: EventRecord[]
 }
 
 export interface WorldConfig {
